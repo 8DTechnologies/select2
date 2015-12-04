@@ -4201,12 +4201,12 @@ S2.define('select2/dropdown/attachBody',[
     };
 
     // Fix positioning with static parents
-    if (this.$dropdownParent[0].style.position !== 'static') {
-      var parentOffset = this.$dropdownParent.offset();
-
-      css.top -= parentOffset.top;
-      css.left -= parentOffset.left;
-    }
+    //if (this.$dropdownParent[0].style.position !== 'static') {
+    //  var parentOffset = this.$dropdownParent.offset();
+    //
+    //  css.top -= parentOffset.top;
+    //  css.left -= parentOffset.left;
+    //}
 
     if (!isCurrentlyAbove && !isCurrentlyBelow) {
       newDirection = 'below';
